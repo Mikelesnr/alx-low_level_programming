@@ -7,19 +7,20 @@
 
 int main(void)
 {
-	int n = '0';
+	int n = 0;
+	int a = '0';
 
-	while (n <= "99")
+	while (n <= 99)
 	{
 		if (n <= '9')
 		{
-			putchar('0' + n);
+			putchar('0' + a);
 			putchar(',');
 			putchar(' ');
 		}
 		else
 		{
-			putchar(n);
+			putchar(a);
 			if (n != 99)
 			{
 				putchar(',');
@@ -27,6 +28,7 @@ int main(void)
 			}
 		}
 		n++;
+		a++;
 	}
 	putchar('\n');
 
