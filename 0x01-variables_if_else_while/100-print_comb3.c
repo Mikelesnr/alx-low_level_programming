@@ -10,12 +10,17 @@ int main(void)
 	int ones = '0';
 	int tens = '0';
 
-	while (tens <= 8)
+	while (tens <= '8')
 	{
 		while (ones <= '9')
 		{
 			putchar(tens);
 			putchar(ones);
+			if (tens != '8' || ones != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			ones++;
 		}
 		ones = '0';
