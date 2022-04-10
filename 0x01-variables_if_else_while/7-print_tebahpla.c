@@ -11,7 +11,7 @@ int main(void)
 
 	while (alpha >= 'a')
 	{
-		putchar(aplha);
+		putchar(alpha);
 		char--;
 	}
 	putchar('\n);
