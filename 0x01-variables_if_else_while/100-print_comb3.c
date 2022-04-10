@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	int ones = '1';
 	int tens = '0';
+	int ones = tens + '1';
 
 	while (tens <= '8')
 	{
@@ -23,8 +23,8 @@ int main(void)
 			}
 			ones++;
 		}
-		ones = '0';
 		tens++;
+		ones = tens + '1';
 	}
 	putchar('\n');
 
