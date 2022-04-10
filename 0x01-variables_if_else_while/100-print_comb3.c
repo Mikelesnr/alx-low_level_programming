@@ -7,21 +7,24 @@
 
 int main(void)
 {
-	int n = 0;
-	int a = '0';
+	int ones = '0';
+	int tens = '0';
 
-	while (n <= 89)
+	while (tens <= 8)
 	{
-		if (n <= '9')
+		while (ones <= '9')
 		{
-			putchar('0' + a);
+			putchar(tens);
+			putchar(ones);
+			if (tens != 8 && ones != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			ones++
 		}
-		else
-		{
-			putchar(a);
-		}
-		n++;
-		a++;
+		ones = '0';
+		tens++
 	}
 	putchar('\n');
 
