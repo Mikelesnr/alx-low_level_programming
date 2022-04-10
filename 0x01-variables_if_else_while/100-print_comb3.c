@@ -21,10 +21,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			ones++
+			ones++;
 		}
 		ones = '0';
-		tens++
+		tens++;
 	}
 	putchar('\n');
 
