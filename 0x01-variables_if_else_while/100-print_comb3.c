@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int ones = '0';
+	int ones = '1';
 	int tens = '0';
 
 	while (tens <= '8')
