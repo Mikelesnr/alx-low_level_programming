@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * multiplication_table - print multiplication table
+ * times_table - print multiplication table
  */
 
-void multiplication_table(void)
+void times_table(void)
 {
 	int row;
 	int column;
