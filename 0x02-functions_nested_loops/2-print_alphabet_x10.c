@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 			_putchar(alpha);
 			alpha++;
 		}
-		aplha = 'a';
+		alpha = 'a';
 		counter++;
 		_putchar('\n');
 	}
