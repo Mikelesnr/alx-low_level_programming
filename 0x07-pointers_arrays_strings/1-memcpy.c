@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * _memcpy - copy n bytes of memory from source to destination
@@ -23,7 +23,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	return (dest);
 }
-
 /* pointer arithmetic version
 
 char *_memcpy(char *dest, char *src, unsigned int n)
