@@ -2,8 +2,8 @@
 
 ## Requirements
 * Language: C
-* OS: Ubuntu 14.04 LTS
-* Compiler: gcc 4.8.4
+* OS: Ubuntu 20.04 LTS
+* Compiler: gcc 9.4.0
 * Style guidelines: [Betty style] (https://github.com/holbertonschool/Betty/wiki)
 
 ## Synopsis
@@ -23,7 +23,4 @@ This repository holds some projects I worked on for Holberton School. The goal i
 100. a program that prints the minimum number of coins to make change for an amount of money
 
 ## Authors
-* Melissa Ng
-
-## License
-* The Holberton School
+* Michael Mwanza
