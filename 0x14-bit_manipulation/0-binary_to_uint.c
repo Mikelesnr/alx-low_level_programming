@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts binary to unsigned int
+ * binary_to_uint - convert binary to unsigned int
  * @b: binary
  * Return: unsigned int
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int no = 0, mult = 1;
+	unsigned int num = 0, mult = 1;
 	int len;
 
 	if (b == '\0')
@@ -22,9 +22,9 @@ unsigned int binary_to_uint(const char *b)
 		if (b[len] != '0' && b[len] != '1')
 			return (0);
 
-		no += (b[len] - '0') * mult;
+		num += (b[len] - '0') * mult;
 		mult *= 2;
 	}
 
-	return (no);
+	return (num);
 }
